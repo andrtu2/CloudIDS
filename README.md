@@ -19,7 +19,7 @@ This repository contains the datasets that we collected and used for the experim
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|------ Vehicle C 
 
 ## File structure ##
-**Datasets** are stored as ASCII Logging Files (.asc), with data structured according to Vector's format (consult [Vector's webpage](https://support.vector.com/kb?id=kb_article_view&sysparm_article=KB0011536&sys_kb_id=b6d21110870d4550b9f233770cbb3523&spa=1) for more details) 
+**Datasets** are stored as ASCII Logging Files (.asc), with data structured according to Vector's format (for more information, see [Vector's webpage](https://support.vector.com/kb?id=kb_article_view&sysparm_article=KB0011536&sys_kb_id=b6d21110870d4550b9f233770cbb3523&spa=1))
 
 ## Data links ##
 File | Download | Notes
