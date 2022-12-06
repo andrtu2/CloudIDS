@@ -3,3 +3,14 @@ This repository contains the datasets that we collected and used for the experim
 
 # Folder structure
 
+|------ John Deere Tractor \
+| \
+|------ Opel Corsa 
+
+
+**CAN voltage samples with ECU allocation** \
+| \
+|------ Dacia Duster \
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|------ ECU1 \
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|------ ECU2 \
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|------ ECU3 \
