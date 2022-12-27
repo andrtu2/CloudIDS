@@ -19,7 +19,8 @@ This repository contains the datasets that we collected and used for the experim
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|------ Vehicle C 
 
 ## File structure ##
-**Datasets** are stored as ASCII Logging Files (.asc), with data structured according to Vector's format (for more information, see [Vector's webpage](https://support.vector.com/kb?id=kb_article_view&sysparm_article=KB0011536&sys_kb_id=b6d21110870d4550b9f233770cbb3523&spa=1))
+**The CAN datasets** are stored as ASCII Logging Files (.asc), with data structured according to Vector's format (for more information, see [Vector's webpage](https://support.vector.com/kb?id=kb_article_view&sysparm_article=KB0011536&sys_kb_id=b6d21110870d4550b9f233770cbb3523&spa=1)).
+The final datasets, resulting after feature extraction, are stored as CSV files. Each row (used in the classification of the current CAN frame) contains the following information: the ID of the CAN frame, the IDs of the previous 4 CAN frames, and the data field of the current CAN frame. In addition, the last byte of the row indicates if the current frame is legitim (value 0) or attack (value 1).
 
 ## Data links ##
 File | Download | Notes
